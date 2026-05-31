@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 54881478}
   - component: {fileID: 54881477}
   - component: {fileID: 54881476}
-  - component: {fileID: 54881475}
+  - component: {fileID: 54881480}
   m_Layer: 0
   m_Name: Coin (2)
   m_TagString: Untagged
@@ -139,18 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &54881475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54881474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &54881476
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -244,6 +232,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &54881480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54881474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &125501206
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,7 +646,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268343, y: 3.400073e-17, z: -1.4083562e-17, w: 0.92387956}
-  m_LocalPosition: {x: 1, y: 8.74, z: -10.71}
+  m_LocalPosition: {x: 0.75, y: 8.48, z: -10.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -847,7 +847,7 @@ Transform:
   m_GameObject: {fileID: 348690678}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268343, y: 4.6288478e-17, z: -4.3748818e-17, w: 0.92387956}
-  m_LocalPosition: {x: 1, y: 8.74, z: -10.71}
+  m_LocalPosition: {x: 0.75, y: 8.48, z: -10.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 354042569}
   - component: {fileID: 354042568}
   - component: {fileID: 354042567}
-  - component: {fileID: 354042566}
+  - component: {fileID: 354042571}
   m_Layer: 0
   m_Name: Coin (6)
   m_TagString: Untagged
@@ -873,18 +873,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &354042566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354042565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &354042567
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -978,6 +966,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &354042571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354042565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,7 +1317,7 @@ GameObject:
   - component: {fileID: 513320143}
   - component: {fileID: 513320142}
   - component: {fileID: 513320141}
-  - component: {fileID: 513320140}
+  - component: {fileID: 513320145}
   m_Layer: 0
   m_Name: Coin (14)
   m_TagString: Untagged
@@ -1325,18 +1325,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &513320140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513320139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &513320141
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1430,6 +1418,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &513320145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513320139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &517863745
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1442,7 @@ GameObject:
   - component: {fileID: 517863749}
   - component: {fileID: 517863748}
   - component: {fileID: 517863747}
-  - component: {fileID: 517863746}
+  - component: {fileID: 517863751}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -1450,18 +1450,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &517863746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517863745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &517863747
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1555,6 +1543,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &517863751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517863745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &568311975
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,7 +1567,7 @@ GameObject:
   - component: {fileID: 568311979}
   - component: {fileID: 568311978}
   - component: {fileID: 568311977}
-  - component: {fileID: 568311976}
+  - component: {fileID: 568311981}
   m_Layer: 0
   m_Name: Coin (9)
   m_TagString: Untagged
@@ -1575,18 +1575,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &568311976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568311975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &568311977
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1680,6 +1668,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &568311981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568311975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &579834671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,7 +2113,7 @@ GameObject:
   - component: {fileID: 846874669}
   - component: {fileID: 846874668}
   - component: {fileID: 846874667}
-  - component: {fileID: 846874666}
+  - component: {fileID: 846874671}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: Untagged
@@ -2121,18 +2121,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &846874666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846874665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &846874667
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2226,6 +2214,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &846874671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846874665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &851721932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 851721936}
   - component: {fileID: 851721935}
   - component: {fileID: 851721934}
-  - component: {fileID: 851721933}
+  - component: {fileID: 851721938}
   m_Layer: 0
   m_Name: Coin (7)
   m_TagString: Untagged
@@ -2246,18 +2246,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &851721933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851721932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &851721934
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2351,6 +2339,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &851721938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851721932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &930462315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,7 +2363,7 @@ GameObject:
   - component: {fileID: 930462319}
   - component: {fileID: 930462318}
   - component: {fileID: 930462317}
-  - component: {fileID: 930462316}
+  - component: {fileID: 930462321}
   m_Layer: 0
   m_Name: Coin (13)
   m_TagString: Untagged
@@ -2371,18 +2371,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &930462316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930462315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &930462317
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2476,6 +2464,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930462321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930462315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &943696708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,7 +2488,7 @@ GameObject:
   - component: {fileID: 943696712}
   - component: {fileID: 943696711}
   - component: {fileID: 943696710}
-  - component: {fileID: 943696709}
+  - component: {fileID: 943696714}
   m_Layer: 0
   m_Name: Coin (12)
   m_TagString: Untagged
@@ -2496,18 +2496,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &943696709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943696708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &943696710
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2601,6 +2589,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943696714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943696708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1004770130
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2613,7 @@ GameObject:
   - component: {fileID: 1004770134}
   - component: {fileID: 1004770133}
   - component: {fileID: 1004770132}
-  - component: {fileID: 1004770131}
+  - component: {fileID: 1004770136}
   m_Layer: 0
   m_Name: Coin (10)
   m_TagString: Untagged
@@ -2621,18 +2621,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1004770131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004770130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &1004770132
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2726,6 +2714,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1004770136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004770130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1054493584
 GameObject:
   m_ObjectHideFlags: 0
@@ -2805,7 +2805,7 @@ GameObject:
   - component: {fileID: 1141773040}
   - component: {fileID: 1141773039}
   - component: {fileID: 1141773038}
-  - component: {fileID: 1141773037}
+  - component: {fileID: 1141773042}
   m_Layer: 0
   m_Name: Coin (3)
   m_TagString: Untagged
@@ -2813,18 +2813,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1141773037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141773036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &1141773038
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2918,6 +2906,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1141773042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141773036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1144832912
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,7 +3121,7 @@ GameObject:
   - component: {fileID: 1243574845}
   - component: {fileID: 1243574844}
   - component: {fileID: 1243574843}
-  - component: {fileID: 1243574842}
+  - component: {fileID: 1243574847}
   m_Layer: 0
   m_Name: Coin (5)
   m_TagString: Untagged
@@ -3129,18 +3129,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1243574842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243574841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &1243574843
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3234,6 +3222,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1243574847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243574841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1462723739
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,7 +3246,7 @@ GameObject:
   - component: {fileID: 1462723743}
   - component: {fileID: 1462723742}
   - component: {fileID: 1462723741}
-  - component: {fileID: 1462723740}
+  - component: {fileID: 1462723745}
   m_Layer: 0
   m_Name: Coin (4)
   m_TagString: Untagged
@@ -3254,18 +3254,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1462723740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462723739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &1462723741
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3359,6 +3347,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1462723745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462723739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1575006262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3371,7 +3371,7 @@ GameObject:
   - component: {fileID: 1575006266}
   - component: {fileID: 1575006265}
   - component: {fileID: 1575006264}
-  - component: {fileID: 1575006263}
+  - component: {fileID: 1575006268}
   m_Layer: 0
   m_Name: Coin (15)
   m_TagString: Untagged
@@ -3379,18 +3379,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1575006263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575006262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &1575006264
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3484,6 +3472,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1575006268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575006262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1596313956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3608,7 +3608,7 @@ GameObject:
   - component: {fileID: 1619451257}
   - component: {fileID: 1619451256}
   - component: {fileID: 1619451255}
-  - component: {fileID: 1619451254}
+  - component: {fileID: 1619451259}
   m_Layer: 0
   m_Name: Coin (11)
   m_TagString: Untagged
@@ -3616,18 +3616,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1619451254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619451253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &1619451255
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3721,6 +3709,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1619451259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619451253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1694444115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3733,7 +3733,7 @@ GameObject:
   - component: {fileID: 1694444119}
   - component: {fileID: 1694444118}
   - component: {fileID: 1694444117}
-  - component: {fileID: 1694444116}
+  - component: {fileID: 1694444121}
   m_Layer: 0
   m_Name: Coin (8)
   m_TagString: Untagged
@@ -3741,18 +3741,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1694444116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694444115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!135 &1694444117
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3846,6 +3834,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694444121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694444115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeebd37a8346d446987ff4f27141b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1847052697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,8 +3859,9 @@ GameObject:
   - component: {fileID: 1847052699}
   - component: {fileID: 1847052698}
   - component: {fileID: 1847052703}
-  - component: {fileID: 1847052702}
   - component: {fileID: 1847052704}
+  - component: {fileID: 1847052705}
+  - component: {fileID: 1847052706}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3955,24 +3956,12 @@ Transform:
   m_GameObject: {fileID: 1847052697}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 1.74, z: -3.71}
+  m_LocalPosition: {x: 0.75, y: 1.48, z: -3.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1847052702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847052697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c509735bc11841d68eb1fd36d0ee7c5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
 --- !u!54 &1847052703
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4030,6 +4019,34 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1847052705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847052697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d4fc0f40239684891bc20b789584bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCoins
+--- !u!114 &1847052706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847052697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509735bc11841d68eb1fd36d0ee7c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  moveSpeed: 10
+  maxSpeed: 8
+  cameraRelativeMovement: 1
+  cameraTransform: {fileID: 0}
 --- !u!1 &2025461754
 GameObject:
   m_ObjectHideFlags: 0

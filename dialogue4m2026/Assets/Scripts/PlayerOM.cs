@@ -2,10 +2,10 @@ using System;
 
 public static class PlayerOM
 {
-    public static Action<int> OnCoinCollected;
+ public static Action<int> OnCoinsChanged;
 
-    public static void CoinCollected(int totalCoins)
-    {
-        OnCoinCollected?.Invoke(totalCoins);
-    }
+ public static void NotifyCoinCollected(int coins)
+ {
+     throw new NotImplementedException();
+ }
 }
