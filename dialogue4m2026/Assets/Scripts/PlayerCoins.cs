@@ -3,11 +3,18 @@ using UnityEngine;
 public class PlayerCoins : MonoBehaviour
 {
     private int coins = 0;
-    
-    public void CollectCoin()
+
+    private void OnTriggerEnter(Collider other)
     {
-        coins++;
-        
-        PlayerOM.NotifyCoinCollected(coins);
+        if (other.CompareTag("Coin"))
+        {
+            coins++;
+
+            // Notifica a interface
+            PlayerOM.CollectCoin(coins);
+
+            // Destrói moeda
+            Destroy(other.gameObject);
+        }
     }
 }

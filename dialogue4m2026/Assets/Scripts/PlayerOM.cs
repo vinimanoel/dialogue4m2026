@@ -2,12 +2,12 @@ using System;
 
 public static class PlayerOM
 {
- public static object OnCoinsChanged { get; set; }
+    // Evento das moedas
+    public static Action<int> OnCoinCollected;
+
+    // Método para disparar evento
+    public static void CollectCoin(int amount)
+    {
+        OnCoinCollected?.Invoke(amount);
+    }
 }
-
-public static Action<int> OnCoinsChanged;
-
- private static void NotifyCoinCollected(int amount)
- {
-  OnCoinsChanged?.Invoke(amount);
- }
