@@ -6,17 +6,10 @@ public class Coin : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerCoins playerCoins = other.GetComponent<PlayerCoins>();
-            if (playerCoins != null)
-            {
-                {
-                    playerCoins.CollectCoin();
-                }
-
-                Destroy(gameObject);
-
-            }
+            PlayerOM.NotifyCoinCollected(1);
+            Destroy(gameObject);
 
         }
+
     }
 }

@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         estadoAtual = GameState.Gameplay;
 
         SceneManager.LoadScene("GUI", LoadSceneMode.Additive);
-
+        SceneManager.LoadScene("SampleScene", LoadSceneMode.Additive);
         Debug.Log("Gameplay iniciada");
     }
     

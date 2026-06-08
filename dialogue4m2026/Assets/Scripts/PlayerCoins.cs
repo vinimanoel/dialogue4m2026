@@ -8,6 +8,6 @@ public class PlayerCoins : MonoBehaviour
     {
         coins++;
         
-        PlayerOM.OnCoinsChanged?.Invoke(coins);
+        PlayerOM.NotifyCoinCollected(coins);
     }
 }
